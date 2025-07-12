@@ -1,0 +1,325 @@
+
+.open-sans-anha {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;     /*ggl th cpy kore ene ekhne dte hbe*/
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* google font styling */
+.gfont{
+    font-weight: 800px;  /*figma*/
+    font-size: 45px;  /*figma*/
+}
+.word{
+    color: #FD6E0A;  /*figma*/
+}
+
+
+
+
+
+
+/* Nav style */
+nav{
+    display: flex; /*Mery er nicher list akare chiko navbar gulo so used this*/
+
+    align-items: center; /*inline e anar por ektu upore uthe clo borabor Mery er shathe horizontal krte used*/
+    
+    justify-content: space-between;
+
+    margin: 0px 200px;
+}
+
+nav ul{
+    display: flex;  /*list item gulo inline krte*/
+    list-style: none; /*list er circle sorate*/
+    align-items: center;
+    
+}
+nav li a{  
+    text-decoration: none; /*ancor er underline shorate*/
+     margin-right: 81px; /*figma thk value and right e nite*/
+     
+}
+
+/* font color */
+.colrdark2{
+    color: #474747 ; /*figma*/
+} 
+
+/*Button Styling*/
+.btn_primary{
+    background-color: #FD6E0A;
+    color: white;
+    border-radius: 5px;
+    height: 64px;
+    width: 150px;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*Banner Styling*/
+.banner_greetings{
+    font-weight: 600px;
+    font-size: 45px;
+}
+.banner_title{
+   font-weight: bold;
+   font-size: 85px;
+   color: #181818;
+}
+.banner_p{
+    height: 60px;
+    width: 585px;
+    font-size: 18px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 38px 0px 230px;
+    /*self*/
+    /* height: 837px;
+    width: 1600px; */
+    margin-bottom: 130px;
+}
+
+.banner-content{
+    max-width: 580px;
+    /* margin-left: 230px; */
+    /* margin: 297px 785px 184px 230px; */
+}
+
+.banner_png{
+    height:676px;
+    width: 585px;
+    /* margin-right: 38px; */
+}
+
+header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    /* height: 136px;
+    width: 774px; */
+    /* margin: 38px 1441px 25px 23px; */
+}
+
+.btn_primary_M{
+    background-color: #FFF8F3;
+    color: #FD6E0A;
+    border-radius: 5px;
+    height: 64px;
+    width: 150px;
+    border: 1px solid #FD6E0A;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.secton_font{
+    font-weight: bold;
+    font-size: 35px;
+    color: #181818;
+    text-align: center;
+    margin-top: 0px;
+
+    
+}
+.about_box{
+    
+    border: 1px solid #474747;
+    width: 827px;
+    height: 280px;
+    background-color: #FFFFFF;
+    
+    
+}
+
+.section_para{
+    font-size: 18px;
+    color: #757575;
+    /* height: 550px; */
+   
+}
+
+.about{
+        padding: 130px 150px;
+        border-radius: 10px;
+        text-align: center;
+        
+      
+}
+
+.bg_color{
+    background-color: #FFF8F3;
+}
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.item_title{
+    color: #757575;
+}
+.item_description{
+    color: #181818;
+    font-weight: 600;
+  
+
+}
+.about_items{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.skills_headline{
+    text-align: center;
+    margin-top: 130px;
+    font-weight: bold;
+    font-size: 35px;
+    color: #181818;
+}
+
+.skills_para{
+    text-align: center;
+    font-size: 18px;
+    color: #757575;
+    /* padding-bottom: 50px; */
+}
+
+.skill_title{
+    color: #181818;
+
+}
+
+.skills_container{
+    display: flex;
+    margin-top: 50px;
+    gap: 24px;
+    /* padding: 1px 5px; */
+    
+}
+
+.skill{
+    height: 377px;
+    width: 267px;
+    border: 1px solid #FFFFFF;
+    /* border: 1px solid black; */
+    box-shadow: 0px 6px 50px 0px #dad2d2;
+    border-radius: 5px;
+    margin-bottom: 130px;
+
+}
+.boxinside{
+    height: 243px;
+    width: 204px;
+    /* border: 1px solid black; */
+    padding: 0px 30px;
+    margin-top: 0px;
+    color: #757575;
+}
+
+.resume_col_container{
+    display: flex;
+    gap: 24px;
+    /* justify-content: space-around; */
+    color: #474747;
+    font-size: 30px;
+    font-weight: bold;
+}
+.subheading{
+    /* width: 511px;
+    height: 175px; */
+    font-weight: bold;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+    /* border: 1px solid black; */
+}
+.subhead2{
+    font-weight: 500;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    
+}
+.resume_descrip{
+    font-size: 16px;
+    color: #757575;
+    width: 544px;
+    height: 8px;
+    padding: 0px;
+    font-weight: normal;
+
+}
+hr{
+    width: 558px;
+    height: 0px;
+    color: #D1D1D1;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.connect{
+    font-weight: bold;
+    font-size: 35px;
+    color: #181818;
+    /* padding: 198px 808px 0px 230px; */
+    /* border: 1px solid black; */
+}
+.connect_des{
+    font-size: 16px;
+    color: #474747;
+    padding-top: 20px;
+    /* padding: 198px 808px 9px 230px; */
+    /* padding-left: 230px; */
+
+}
+.icon{
+    width: 120px;
+    height: 24px;
+    /* padding: 30px 0px 0px 230px; */
+}
+.footer_part{
+    
+    padding: 130px 230px;
+    display: flex;
+    gap: 117px;
+}
+.footer_colm{
+    width: 50%;
+}
+
+footer input[type="text"],  footer input[type="email"]{
+    width: 461px;
+    height: 64px;
+    border-radius: 5px;
+    display: block;
+    width: 70%;
+    margin-bottom: 24px;
+    color: #757575;
+    font-size: 16px;
+    padding: 18px 30px 18px 18px;
+    background-color: #FFFFFF;
+     border: none;
+    
+}
+
+footer textarea{
+    width: 461px;
+    height: 180px;
+    border-radius: 5px;
+    display: block;
+    width: 70%;
+    margin-top: 24px;
+    color: #757575;
+    font-size: 16px;
+    padding: 18px 30px 18px 18px;
+    background-color: #FFFFFF;
+    border: none;
+}
